@@ -22,7 +22,7 @@ if app.config["DEBUG"]:
         return response
 
 # Custom filter
-app.jinja_env.filters["usd"] = usd
+#app.jinja_env.filters["usd"] = usd
 
 # Configure session to use filesystem (instead of signed cookies)
 app.config["SESSION_FILE_DIR"] = mkdtemp()
@@ -37,14 +37,14 @@ Session(app)
 @app.route("/")
 # need to edit
 def index():
-return render_template("home.html")
+    return render_template("home.html")
 
 
 
 
 def errorhandler(e):
     """Handle error"""
-    return apology(e.name, e.code)
+    return render_template("apology.html")
 
 
 # listen for errors
