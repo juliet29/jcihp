@@ -1,0 +1,70 @@
+/****COLORS***
+dark green: #293000
+orange: #FF4E00
+yellow: #EC9F05
+white: #ffffff
+off-white: #F9F9F9
+light grey: #BFBFBF
+gray: #919191
+dark grey: #1E1E1E
+black: #000000
+*/
+
+/****HEADER FONTS****/
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ju-text_heading--italics {
+  font-family: 'IM Fell French Canon', serif;
+}
+
+/****BODY STUFF****/
+
+body {
+  background-color: #F9F9F9;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+.ju-text_body {
+  font-family: 'Lato', sans-serif;
+}
+
+.ju-text_body--bold {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.ju-text_body--italic {
+  font-family: 'IM Fell French Canon', serif;
+}
+
+/****FOOTER FONTS****/
+
+.ju-text_footer {
+  font-family: 'Lato', sans-serif;
+}
+
+.ju-text_footer--bold {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ju-text_footer--thin {
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+}
+
+.ju-text_footer--italic {
+  font-family: 'IM Fell French Canon', serif;
+}
+
+/*****OTHER FONTS****/
+
+a:hover {
+  color: #EC9F05;
+  text-decoration: none;
+}

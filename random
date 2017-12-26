@@ -1,3 +1,32 @@
+//modify within the modules
+<p>image descriptions</p>
+<p>image descriptions, italic, lighter</p>
+
+<p>infograph paragraph</p>
+<p>infograph heading h1</p>
+
+<p>tiny indicators</p>
+<p>small italics (since 2004)</p>
+
+
+
+//relevant links, other stuff
+https://coolors.co/u/juliet29
+https://rocky-earth-54545.herokuapp.com/
+source venv/bin/activate
+-->remove bootstrap file after done with css
+
+
+
+
+
+
+
+
+
+
+
+
 // old html
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"/>
 

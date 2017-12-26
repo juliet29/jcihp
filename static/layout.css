@@ -1,0 +1,60 @@
+.ju-content-block {
+  position: relative;
+  margin-top: -90px;
+}
+
+.ju-container {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+/* Overlap Images and Text*/
+
+.ju-container--overlap {
+  z-index: 3;
+}
+
+.ju-image_screenwide--under {
+  z-index: -1;
+  top: 223px;
+}
+
+.ju-subheadings--overlap {
+  margin-top: 100px;
+}
+
+/*****Adjust the Tertiary Hero on Each Different Page*/
+
+/*Projects Page*/
+
+.ju-hero_tertiary--projects .ju-hero_tertiary-accent-color {
+  background-color: #FF4E00;
+}
+
+.ju-hero_tertiary--projects .ju-headings {
+  font-size: 150%;
+}
+
+/*Partners Page*/
+
+.ju-hero_tertiary--partners .ju-hero_tertiary-accent-color {
+  background-color: #EC9F05;
+}
+
+.ju-hero_tertiary--partners .ju-headings {
+  font-size: 150%;
+}
+
+/*Contact Page*/
+
+.ju-hero_tertiary--contact .ju-hero_tertiary-accent-color {
+  height: 58%;
+  top: 42%;
+  background-color: #919191;
+}
+
+.ju-hero_tertiary--contact .ju-headings {
+  font-size: 150%;
+}

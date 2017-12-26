@@ -36,8 +36,33 @@ Session(app)
 
 @app.route("/")
 # need to edit
-def index():
-    return render_template("home.html")
+def welcome():
+    return render_template("welcome.html")
+
+@app.route("/values")
+# need to edit
+def values():
+    return render_template("values.html")
+
+@app.route("/projects")
+# need to edit
+def projects():
+    return render_template("projects.html")
+
+@app.route("/partners")
+# need to edit
+def partners():
+    return render_template("partners.html")
+
+@app.route("/contact")
+# need to edit
+def contact():
+    return render_template("contact.html")
+
+@app.route("/design")
+# need to edit
+def design():
+    return render_template("design.html")
 
 
 
