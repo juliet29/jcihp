@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 }
 
 .ju-text_heading--italics {
-  font-family: 'Palatino', serif;
+  font-family: 'Garamond', serif;
   font-style: italic;
 }
 
@@ -42,7 +42,7 @@ p {
 }
 
 .ju-text_body--italic {
-  font-family: 'Palatino', serif;
+  font-family: 'Garamond', serif;
   font-style: italic;
 }
 
@@ -62,7 +62,7 @@ p {
 }
 
 .ju-text_footer--italic {
-  font-family: 'Palatino', serif;
+  font-family: 'Garamond', serif;
   font-style: italic;
 }
 
