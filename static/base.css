@@ -10,6 +10,22 @@ dark grey: #1E1E1E
 black: #000000
 */
 
+/* im-fell-french-canon-italic - latin */
+
+@font-face {
+  font-family: 'IM Fell French Canon';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/im-fell-french-canon-v7-latin-italic.eot');
+  /* IE9 Compat Modes */
+  src: local('IM FELL French Canon Italic'), local('IM_FELL_French_Canon_Italic'), url('../fonts/im-fell-french-canon-v7-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/im-fell-french-canon-v7-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/im-fell-french-canon-v7-latin-italic.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/im-fell-french-canon-v7-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/im-fell-french-canon-v7-latin-italic.svg#IMFellFrenchCanon') format('svg');
+  /* Legacy iOS */
+}
+
 /****HEADER FONTS****/
 
 h1, h2, h3, h4 {
@@ -63,6 +79,11 @@ p {
 }
 
 /*****OTHER FONTS****/
+
+a {
+  color: black;
+  cursor: pointer;
+}
 
 a:hover {
   color: #EC9F05;
